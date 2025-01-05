@@ -1,0 +1,19 @@
+in deep Copy changes do not reflect
+while in Shallow Copy Changes reflect
+
+in Shallow copy
+Student s2 =  enw Student(s1);   //from CpyConstructor.java file
+s2.password = "xyzjs";
+s2.mars[2] = 100;
+for(int i = 0; i<3; i++){
+println(s2.marks[i]);
+}
+
+in deepCopy
+ Student(Student s1){
+    marks = new int[];
+    this.name = s1.name;
+    for(int i = 0; i<marks.length; i++){
+        this.marks[i] = s1.marks[i];
+    }
+ }
