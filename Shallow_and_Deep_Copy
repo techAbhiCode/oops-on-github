@@ -17,3 +17,7 @@ in deepCopy
         this.marks[i] = s1.marks[i];
     }
  }
+
+ Destructor:
+            in java, object which is not in use
+            automatically removed from the memory
