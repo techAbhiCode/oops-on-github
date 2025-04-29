@@ -8,7 +8,7 @@ class Students{
         marks = new int[3];
         System.out.println("Students constructor is called ");
     }
-    Students(Students s1){
+    Students( s1){
         marks = new int[3];
         this.name = s1.name;
         this.roll = s1.roll;
